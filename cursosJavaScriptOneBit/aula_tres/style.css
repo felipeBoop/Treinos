@@ -1,0 +1,10 @@
+body{
+    background-color: gray;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/450px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    background-color: gray;
+}
