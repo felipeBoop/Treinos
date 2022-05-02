@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX - Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="exercicio-pagina-completa.html" target="_blanck">
+                <img src="img/logo.png">
+            </a>
+
+            <label for="divisoria">|</label>
+            <span id= "divisoria" name="divisioria"></span>
+            <a href="exercicio-pagina-completa-naves.html" target="_blanck">The Spaceships</a>
+            
+            <label for="divisoria">|</label>
+            <span id= "divisoria" name="divisioria"></span>
+            <a href="exercicio-pagina-completa-form.html" target="_self">Hire Us</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section>
+        <h3>Hire Us Now</h3>
+        <p>Leave a message to request one of our services and we will get back to you as soon as possible</p>
+
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="divisoria">|</label>
+                <span id= "divisoria" name="divisioria"></span>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <br>
+            <div>
+                <label for="ships">Spaceship:</label>
+                <select id="ships" name="ships" required>
+                    <option value="falcon9">Falcon 9</option>
+                    <option value="falconH">Falcon Heavy</option>
+                </select>
+
+                <label for="divisoria">|</label>
+                <span id= "divisoria" name="divisioria"></span>
+
+                <label for="tpsvcs">tipo de serviço:</label>
+                <input id="tpsvcs" list="tpsvc">
+                <datalist id="tpsvc">
+                    <option value="rem dolores officia exercitationem obcaecati.">
+                    <option value="Lorem ipsum dolor sit amet consectetur, Distinctio nemo.">
+                    <option value="adipisicing elit. Suscipit eaque amet recusandae reprehenderit velit.">
+                    <option value="minima provident magnam repellat quas? Vel odio explicabo molestias.">
+                </datalist>
+            </div>
+
+            <br>
+            <div>
+                <input type="submit" value="Send Message">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
