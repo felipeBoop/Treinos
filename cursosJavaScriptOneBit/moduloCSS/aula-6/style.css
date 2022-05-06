@@ -1,3 +1,11 @@
+div{
+    border: 2px solid gray
+}
+
+div ul{
+    border: inherit; 
+}
+
 li a{
     color: #99e918;
 }
@@ -12,4 +20,8 @@ h1 + h4{
 
 a[href = '/teste']{
     color: #ffa500;
+}
+
+li:nth-of-type(odd){
+    color: #00ffff
 }
