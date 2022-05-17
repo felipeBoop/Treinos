@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/7b8a6d720e.js" crossorigin="anonymous"></script>
+    <title>comparacoes-de-dados</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-12">
+                    <h2 class="title is-5">Comparacoes de Dados</h2>
+                    
+                    <hr>
+                    
+                    <caption>
+                        <p class="title is-6">o Igual "=="</p>
+                    </caption>
+                    <ul>
+                        <li>console.log(velocity == 80) -> comparamos com os dois iguais, pois um só significa atribuição.</li>
+                        <li>console.log(spaceship == "golias")</li>
+                        <li>console.log(velocity == "80") -> irá retornar true, devido a sua tipagem fraca.</li>
+                    </ul>
+
+                    <hr>
+                    
+                    <caption>
+                        <p class="title is-6">A igualdade "==="</p>
+                    </caption>
+                    <ul>
+                        <li>console.log(velocity === "80") -> ira retornar false, pois com === iguais, ele irá comparar o tipo também</li>
+                        <li></li>
+                    </ul>
+
+                    
+                    <hr>
+                    
+                    <caption>
+                        <p class="title is-6">O diferente "!="</p>
+                    </caption>
+                    <ul>
+                        <li>console.log(velocity != 70) -> ira retornar true, pois são valores diferentes</li>
+                        <li>console.log(velocity !== 70) -> mesma coisa que o igual com ===</li>
+                    </ul>
+
+                    <hr>
+                    
+                    <caption>
+                        <p class="title is-6">Maior que ">"</p>
+                    </caption>
+                    <ul>
+                        <li>console.log(velocity > 70) -> ira retornar true, pois velocity é 80</li>
+                        <li>console.log(spaceship > "helmet") -> irá verificar se uma string vem antes ou depois da outra, exemplo "golias" vem antes de "helmet", pois g vem antes de h, logo retornaria false</li>
+                    </ul>
+
+                    <hr>
+                    
+                    <caption>
+                        <p class="title is-6">Maior ou igual ">="</p>
+                    </caption>
+                    <ul>
+                        <li>console.log(velocity >= 80) -> ira retornar true.</li>
+                        <li>console.log(spaceship >= "Golias") -> verdadeiro, pois um n vem antes do outros, são iguais</li>
+                    </ul>
+
+                    <hr>
+
+                    <caption>
+                        <p class="title is-6">Menor "<"</p>
+                    </caption>
+                    <ul>
+                        <li>mesma lógica que o maior só que ao contrário</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/modulo-JavaScript-logica-1/aula-9-comparacoes-de-dados/comparacoes-de-dados.js"></script>
+</html>
